@@ -1,0 +1,2 @@
+# SuperTrunfo
+ Criando um trunfo
