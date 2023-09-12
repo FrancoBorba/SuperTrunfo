@@ -4,10 +4,8 @@ public class App {
         System.out.println("Cesinha");
         System.out.println("BORBA");
         System.out.println("aiii");
-<<<<<<< Updated upstream
-        System.out.println("Teste");
-=======
         System.out.println("Burro dms vc filho");
->>>>>>> Stashed changes
+        System.out.println(" teste");
+        
     }
 }
