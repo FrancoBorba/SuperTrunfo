@@ -12,7 +12,7 @@ public class App {
         Carta c2 = new Carta( "Sage" , 0 , 3,5,2);
         Carta c3 = new Carta( " Cypher",1,5,2,3);
         Carta c4 = new Carta( " Brim",2,5,2,2);
-        int quantidadeCarta = 4;
+        int quantidadeCarta = c1.getQuantidadeCarta();
         ArrayList <Carta> baralho = new ArrayList<>(quantidadeCarta); 
         ArrayList <Carta> monte1 = new ArrayList<>();
         ArrayList <Carta> monte2 = new ArrayList<>();
@@ -113,6 +113,11 @@ public class App {
             
                 break;
         }
+    }
+    public static void verificaVitoria(ArrayList <Carta> m1 , int quantidadeCarta){
+       if(m1.size() == quantidadeCarta){
+        System.out.println("Vitoria do jogador");
+       }
     }
 
  }   
