@@ -33,10 +33,12 @@ public class App {
 
     public static void main(String[] args) throws Exception {
 
-        Carta c1 = new Carta("Reyna", 5, 1, 0, 2);
-        Carta c2 = new Carta("Sage", 0, 3, 5, 2);
-        Carta c3 = new Carta(" Cypher", 1, 5, 2, 3);
-        Carta c4 = new Carta(" Brimstone", 2, 5, 2, 2);
+        Carta c1 = new Carta(1);
+        Carta c2 = new Carta(2);
+        Carta c3 = new Carta(3);
+        Carta c4 = new Carta(4);
+
+
         int quantidadeCarta = c1.getQuantidadeCarta();
         ArrayList<Carta> baralho = new ArrayList<>(quantidadeCarta);
         ArrayList<Carta> monte1 = new ArrayList<>();

@@ -8,16 +8,11 @@ public class Carta {
     private int controle;
     private int suporte;
     private int iniciacao;
+    private int tipo;
 
-    public Carta(String nome, int ataque, int controle, int suporte, int iniciacao) {
-        this.nome = nome;
-        this.ataque = ataque;
-        this.controle = controle;
-        this.suporte = suporte;
-        this.iniciacao = iniciacao;
+    public Carta(int tipo) {
+        definirTipoCarta(tipo);
         quantidadeCarta++;
-        this.disponivel = true;
-
     }
 
     public int getAtaque() {
@@ -61,4 +56,47 @@ public class Carta {
         this.disponivel = disponivel;
     }
 
+        //Método para definir tipo
+    public void definirTipoCarta(int tipo) {
+        switch (tipo) {
+            case 1:
+                this.nome = "Reyna";
+                this.ataque = 5;
+                this.controle = 1;
+                this.suporte = 0;
+                this.iniciacao = 2;
+                this.disponivel = true;
+                break;
+            case 2:
+                this.nome = "Sage";
+                this.ataque = 0;
+                this.controle = 3;
+                this.suporte = 5;
+                this.iniciacao = 2;
+                this.disponivel = true;
+                break;
+            case 3:
+                this.nome = "Cypher";
+                this.ataque = 1;
+                this.controle = 5;
+                this.suporte = 2;
+                this.iniciacao = 3;
+                this.disponivel = true;
+                break;
+            case 4:
+                this.nome = "Brimstone";
+                this.ataque = 2;
+                this.controle = 5;
+                this.suporte = 2;
+                this.iniciacao = 2;
+                this.disponivel = true;
+                break;
+            default:
+                System.out.println("Tipo inválido");
+                break;
+        }
+    }
 }
+
+
+
