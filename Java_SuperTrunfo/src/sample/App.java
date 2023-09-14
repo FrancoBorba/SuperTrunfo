@@ -1,37 +1,36 @@
-package sample;
 
-import sample.model.Carta;
-import sample.model.Jogador;
+import model.Carta;
+import model.Jogador;
 import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 //Bibliotecas necessárias para a tela aparecer, por enquanto so ignorem
-/*import javafx.application.Application;
+import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.stage.Stage;*/
+import javafx.stage.Stage;
 
-public class App {
+//public class App {
 
     //Essa vai ser a Nossa classe App futuramente, a gente vai enviar todos os outros códigos que estão aqui pro controle da tela em cada ação.
-    /*public class App extends Application{
+    public class App extends Application{
     public static void main(String[] args) {
         launch(args);
     }
     
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/sample/view/TesteJogo.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/TesteJogo.fxml"));
         Parent root = loader.load();
         Scene tela = new Scene(root);
         primaryStage.setScene(tela);
         primaryStage.show();
-    }*/
+    }
 
 
-    public static void main(String[] args) throws Exception {
+    /*public static void main(String[] args) throws Exception {
 
         Carta c1 = new Carta(1);
         Carta c2 = new Carta(2);
@@ -134,6 +133,6 @@ public class App {
         if (m1.size() == quantidadeCarta) {
             System.out.println("Vitoria do jogador");
         }
-    }
+    }*/
 
 }
