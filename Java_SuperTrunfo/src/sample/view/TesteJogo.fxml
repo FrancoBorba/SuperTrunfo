@@ -8,16 +8,16 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="980.0" prefWidth="1450.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.TelaJogo">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.TelaJogo">
    <children>
-      <ImageView fitHeight="980.0" fitWidth="1450.0" layoutY="-1.0" pickOnBounds="true">
+      <ImageView fitHeight="800.0" fitWidth="1200.0" layoutY="-1.0" pickOnBounds="true">
          <image>
             <Image url="@../assets/geral/FundoTela.png" />
          </image>
       </ImageView>
-      <AnchorPane layoutX="14.0" layoutY="253.0" prefHeight="292.0" prefWidth="216.0">
+      <AnchorPane layoutX="27.0" layoutY="404.0" prefHeight="371.0" prefWidth="247.0">
          <children>
-            <ImageView fitHeight="274.0" fitWidth="187.0" layoutX="11.0" layoutY="10.0" pickOnBounds="true">
+            <ImageView fitHeight="352.0" fitWidth="226.0" layoutX="11.0" layoutY="10.0" pickOnBounds="true">
                <image>
                   <Image url="@../assets/geral/CostaCarta.jpg" />
                </image>
@@ -25,7 +25,7 @@
                   <DropShadow radius="20.9925" width="64.97" />
                </effect>
             </ImageView>
-            <ImageView fitHeight="274.0" fitWidth="187.0" layoutX="33.0" layoutY="9.0" pickOnBounds="true">
+            <ImageView fitHeight="352.0" fitWidth="226.0" layoutX="33.0" layoutY="9.0" pickOnBounds="true">
                <image>
                   <Image url="@../assets/geral/CostaCarta.jpg" />
                </image>
@@ -35,23 +35,7 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="jogCarta1" layoutX="354.0" layoutY="624.0" prefHeight="316.0" prefWidth="226.0" style="-fx-border-color: black; -fx-background-color: black;">
-         <children>
-            <ImageView fx:id="agenteCarta1" fitHeight="338.0" fitWidth="222.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true">
-               <image>
-                  <Image url="@../assets/geral/FundoCarta.jpg" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="338.0" fitWidth="222.0" layoutX="2.0" layoutY="2.0" nodeOrientation="INHERIT" pickOnBounds="true">
-               <image>
-                  <Image url="@../assets/agentes/Viper.png" />
-               </image>
-            </ImageView>
-         </children>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor></AnchorPane>
-      <AnchorPane fx:id="jogCarta2" layoutX="601.0" layoutY="545.0" prefHeight="416.0" prefWidth="226.0" style="-fx-border-color: black; -fx-background-color: black;">
+      <AnchorPane fx:id="jogCarta2" layoutX="514.0" layoutY="359.0" prefHeight="422.0" prefWidth="226.0" style="-fx-border-color: black; -fx-background-color: black;">
          <children>
             <ImageView fx:id="agenteCarta2" fitHeight="338.0" fitWidth="222.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true">
                <image>
@@ -72,23 +56,6 @@
                   <Font name="System Bold" size="20.0" />
                </font>
             </Label>
-         </children>
-         <cursor>
-            <Cursor fx:constant="HAND" />
-         </cursor>
-      </AnchorPane>
-      <AnchorPane fx:id="jogCarta3" layoutX="846.0" layoutY="624.0" prefHeight="316.0" prefWidth="226.0" style="-fx-border-color: black; -fx-background-color: black;">
-         <children>
-            <ImageView fx:id="agenteCarta3" fitHeight="338.0" fitWidth="222.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true">
-               <image>
-                  <Image url="@../assets/geral/FundoCarta.jpg" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="338.0" fitWidth="222.0" layoutX="2.0" layoutY="2.0" nodeOrientation="INHERIT" pickOnBounds="true">
-               <image>
-                  <Image url="@../assets/agentes/Fade.png" />
-               </image>
-            </ImageView>
          </children>
          <cursor>
             <Cursor fx:constant="HAND" />
