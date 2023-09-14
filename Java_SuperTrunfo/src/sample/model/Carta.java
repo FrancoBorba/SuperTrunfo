@@ -38,7 +38,7 @@ package model;
             return quantidadeCarta;
         }
        public void info(){
-        System.out.println("\n --------------------- \n");
+        System.out.println("\n --------------------- ");
         System.out.printf("\n%s",getNome());
         System.out.printf("\nAtaque: %d ",getAtaque());
         System.out.printf("\nControle: %d ",getControle());
