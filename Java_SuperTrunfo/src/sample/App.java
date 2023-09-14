@@ -12,10 +12,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-//public class App {
+public class App {
 
     //Essa vai ser a Nossa classe App futuramente, a gente vai enviar todos os outros códigos que estão aqui pro controle da tela em cada ação.
-    public class App extends Application{
+    /*public class App extends Application{
     public static void main(String[] args) {
         launch(args);
     }
@@ -27,10 +27,10 @@ import javafx.stage.Stage;
         Scene tela = new Scene(root);
         primaryStage.setScene(tela);
         primaryStage.show();
-    }
+    }*/
 
 
-    /*public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
 
         Carta c1 = new Carta(1);
         Carta c2 = new Carta(2);
@@ -133,6 +133,6 @@ import javafx.stage.Stage;
         if (m1.size() == quantidadeCarta) {
             System.out.println("Vitoria do jogador");
         }
-    }*/
+    }
 
 }
