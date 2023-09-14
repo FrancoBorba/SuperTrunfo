@@ -1,8 +1,10 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Jogador {
     
-    public Jogador(Carta [] c){
+    public Jogador(ArrayList <Carta> c){
         
     }
 }
