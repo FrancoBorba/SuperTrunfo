@@ -8,16 +8,36 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1281.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.TelaJogo">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="980.0" prefWidth="1450.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.TelaJogo">
    <children>
-      <ImageView fitHeight="900.0" fitWidth="1281.0" pickOnBounds="true">
+      <ImageView fitHeight="980.0" fitWidth="1450.0" layoutY="-1.0" pickOnBounds="true">
          <image>
             <Image url="@../assets/geral/FundoTela.png" />
          </image>
       </ImageView>
-      <AnchorPane fx:id="carta1Jogador1" layoutX="287.0" layoutY="524.0" prefHeight="316.0" prefWidth="226.0" style="-fx-border-color: black; -fx-background-color: black;">
+      <AnchorPane layoutX="14.0" layoutY="253.0" prefHeight="292.0" prefWidth="216.0">
          <children>
-            <ImageView fitHeight="338.0" fitWidth="222.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true">
+            <ImageView fitHeight="274.0" fitWidth="187.0" layoutX="11.0" layoutY="10.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/geral/CostaCarta.jpg" />
+               </image>
+               <effect>
+                  <DropShadow radius="20.9925" width="64.97" />
+               </effect>
+            </ImageView>
+            <ImageView fitHeight="274.0" fitWidth="187.0" layoutX="33.0" layoutY="9.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/geral/CostaCarta.jpg" />
+               </image>
+               <effect>
+                  <DropShadow radius="20.9925" width="64.97" />
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="jogCarta1" layoutX="354.0" layoutY="624.0" prefHeight="316.0" prefWidth="226.0" style="-fx-border-color: black; -fx-background-color: black;">
+         <children>
+            <ImageView fx:id="agenteCarta1" fitHeight="338.0" fitWidth="222.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true">
                <image>
                   <Image url="@../assets/geral/FundoCarta.jpg" />
                </image>
@@ -31,9 +51,9 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></AnchorPane>
-      <AnchorPane fx:id="carta1Jogador11" layoutX="528.0" layoutY="465.0" prefHeight="416.0" prefWidth="226.0" style="-fx-border-color: black; -fx-background-color: black;">
+      <AnchorPane fx:id="jogCarta2" layoutX="601.0" layoutY="545.0" prefHeight="416.0" prefWidth="226.0" style="-fx-border-color: black; -fx-background-color: black;">
          <children>
-            <ImageView fitHeight="338.0" fitWidth="222.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true">
+            <ImageView fx:id="agenteCarta2" fitHeight="338.0" fitWidth="222.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true">
                <image>
                   <Image url="@../assets/geral/FundoCarta.jpg" />
                </image>
@@ -57,9 +77,9 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </AnchorPane>
-      <AnchorPane fx:id="carta1Jogador12" layoutX="770.0" layoutY="524.0" prefHeight="316.0" prefWidth="226.0" style="-fx-border-color: black; -fx-background-color: black;">
+      <AnchorPane fx:id="jogCarta3" layoutX="846.0" layoutY="624.0" prefHeight="316.0" prefWidth="226.0" style="-fx-border-color: black; -fx-background-color: black;">
          <children>
-            <ImageView fitHeight="338.0" fitWidth="222.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true">
+            <ImageView fx:id="agenteCarta3" fitHeight="338.0" fitWidth="222.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true">
                <image>
                   <Image url="@../assets/geral/FundoCarta.jpg" />
                </image>
@@ -73,26 +93,6 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
-      </AnchorPane>
-      <AnchorPane layoutY="208.0" prefHeight="292.0" prefWidth="208.0">
-         <children>
-            <ImageView fitHeight="274.0" fitWidth="187.0" layoutX="11.0" layoutY="10.0" pickOnBounds="true">
-               <image>
-                  <Image url="@../assets/geral/CostaCarta.jpg" />
-               </image>
-               <effect>
-                  <DropShadow radius="20.9925" width="64.97" />
-               </effect>
-            </ImageView>
-            <ImageView fitHeight="274.0" fitWidth="187.0" layoutX="33.0" layoutY="9.0" pickOnBounds="true">
-               <image>
-                  <Image url="@../assets/geral/CostaCarta.jpg" />
-               </image>
-               <effect>
-                  <DropShadow radius="20.9925" width="64.97" />
-               </effect>
-            </ImageView>
-         </children>
       </AnchorPane>
    </children>
 </AnchorPane>
